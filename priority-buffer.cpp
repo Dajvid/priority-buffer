@@ -19,6 +19,8 @@ PriorityBuffer::RETCODE PriorityBuffer::Get()
     } else {
         std::cout << "buffer is empty\n";
     }
+
+    return SUCCES;
 }
 
 PriorityBuffer::RETCODE PriorityBuffer::Print()
@@ -33,6 +35,7 @@ PriorityBuffer::RETCODE PriorityBuffer::Print()
         std::cout << "buffer is empty\n";
     }
 
+    return SUCCES;
 }
 
 PriorityBuffer::OPCODE PriorityBuffer::LoadInput(double &value, double &priority)
